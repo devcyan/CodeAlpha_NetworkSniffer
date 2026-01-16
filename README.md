@@ -27,7 +27,5 @@ source IP, destination IP, protocol type, packet length, and timestamp.
 
 ## Output
 The tool displays live packet details in the terminal.
-Screenshots are included in the screenshots folder.
+Screenshots are included in the folder.
 
-## Disclaimer
-This project is for educational purposes only.
