@@ -1,0 +1,112 @@
+# Task 1: Basic Network Sniffer
+
+## 1. Introduction
+
+Network security is a fundamental part of cybersecurity. One of the most important techniques used by security professionals is **packet sniffing**, which allows the monitoring and analysis of network traffic. A network sniffer captures data packets traveling across a network and helps in understanding how devices communicate.
+
+This project implements a **Basic Network Sniffer using Python and Scapy**, designed to capture and analyze live network packets for educational and defensive security purposes.
+
+---
+
+## 2. Objectives
+
+The main objectives of this project are:
+
+* To capture live network packets
+* To analyze network traffic in real time
+* To identify source and destination IP addresses
+* To recognize commonly used protocols
+* To understand how data flows through a network
+
+---
+
+## 3. Tools and Technologies Used
+
+* **Programming Language:** Python 3
+* **Library:** Scapy
+* **Operating System:** Kali Linux
+* **Privileges:** Root access (required for packet sniffing)
+
+---
+
+## 4. Methodology
+
+The network sniffer works by placing the network interface into monitoring mode, allowing it to capture packets passing through the network. The captured packets are analyzed to extract meaningful information such as IP addresses, protocol type, packet size, and timestamp.
+
+Steps involved:
+
+1. Import required Scapy libraries
+2. Start packet capture on the active network interface
+3. Analyze each packet in real time
+4. Display packet details in the terminal
+
+---
+
+## 5. Packet Information Analyzed
+
+The following details are extracted from each captured packet:
+
+* Source IP address
+* Destination IP address
+* Protocol type (TCP, UDP, ICMP)
+* Packet length
+* Time of capture
+* Packet summary
+
+---
+
+## 6. Sample Output
+
+The program successfully captures live packets and displays detailed information, such as:
+
+* Packet number
+* Timestamp
+* Source and destination IPs
+* Protocol used
+* Packet size
+
+This confirms the correct functioning of the network sniffer.
+
+---
+
+## 7. Cybersecurity Use Cases
+
+* Network traffic monitoring
+* Identifying suspicious activity
+* Understanding attacker techniques
+* Supporting incident response and forensics
+
+---
+
+## 8. Ethical and Legal Considerations
+
+Packet sniffing must only be performed on networks that the user owns or has explicit permission to monitor. Unauthorized interception of network traffic is illegal and unethical.
+
+---
+
+## 9. Limitations
+
+* Encrypted traffic content cannot be read
+* No deep payload inspection
+* Designed for educational use only
+
+---
+
+## 10. Conclusion
+
+The Basic Network Sniffer project successfully demonstrates how live network packets can be captured and analyzed using Python and Scapy. This project provides a strong foundation in network security concepts and helps in understanding real-time traffic monitoring techniques used by cybersecurity professionals.
+
+---
+
+## 11. Future Enhancements
+
+* Logging packets to a file
+* Protocol-based filtering
+* Traffic visualization
+* Suspicious activity alerts
+
+---
+
+## 12. Outcome
+
+This project achieved its goal of implementing a functional and efficient network sniffer, reinforcing core cybersecurity and network monitoring concepts.
